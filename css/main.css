@@ -49,13 +49,13 @@ html {
   }
 }
 
-#jug{
+#jug {
   transform-origin: 500px 87px;
   transform: rotate(28deg);
   transition: all .25s linear;
 }
 
-#jug.jug-turn{
+#jug.jug-turn {
   transform: rotate(0);
 }
 
