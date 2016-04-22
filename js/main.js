@@ -15,4 +15,4 @@ $txt.waypoint(function (direction) {
   } else {
     $txt.removeClass('js-txt-animate');
   }
-},{offset: '70%'});
+}, {offset: '70%'});
