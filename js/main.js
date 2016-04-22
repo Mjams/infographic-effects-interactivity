@@ -5,7 +5,7 @@ $('.gas-jug').on('mouseover', function () {
   $gasJug.addClass('jug-turn');
 });
 
-$('.gas-jug').on('mouseout', function () {
+$('.gas-jug').on('mouseout', function (){
   $gasJug.removeClass('jug-turn');
 });
 
@@ -15,4 +15,4 @@ $txt.waypoint(function (direction) {
   } else {
     $txt.removeClass('js-txt-animate');
   }
-}, { offset: '70%' });
+},{offset: '70%'});
