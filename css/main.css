@@ -65,10 +65,10 @@ html {
   animation: move 1s infinite alternate;
 }
 
-@keyframes move{
+@keyframes move {
 
   0% {
-    transform: translate(0,0);
+    transform: translate(0, 0);
   }
 
   100% {
