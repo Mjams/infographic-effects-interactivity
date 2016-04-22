@@ -1,0 +1,77 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.txt{
+  transition: all 200ms ease-in;
+  opacity: 0;
+}
+
+.js-txt-animate {
+  opacity: 1;
+}
+
+.leaf-car {
+  padding: 1em;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-15deg);
+  }
+
+  75% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+#jug{
+  transform-origin: 500px 87px;
+  transform: rotate(28deg);
+  transition: all .25s linear;
+}
+
+#jug.jug-turn{
+  transform: rotate(0);
+}
+
+
+.eye {
+  position: absolute;
+  animation: move 1s infinite alternate;
+}
+
+@keyframes move{
+
+  0%{
+    transform: translate(0,0);
+  }
+
+  100%{
+    transform: translate(10px, 0);
+  }
+}
