@@ -16,7 +16,7 @@ html {
   box-sizing: inherit;
 }
 
-.txt{
+.txt {
   transition: all 200ms ease-in;
   opacity: 0;
 }
