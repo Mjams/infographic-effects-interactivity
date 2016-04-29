@@ -59,7 +59,6 @@ html {
   transform: rotate(0);
 }
 
-
 .eye {
   position: absolute;
   animation: move 1s infinite alternate;
